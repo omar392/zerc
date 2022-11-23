@@ -1,0 +1,1097 @@
+.side-nav .job-right {
+    position: relative;
+}
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu {
+    left: unset;
+    right: 0;
+    text-align: right;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:before {
+    left: unset;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+    padding-left: unset;
+    padding-right: 10px;
+}
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+    left: -100%;
+    right: unset;
+}
+.side-nav .login-left {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.side-nav .job-right i {
+    top: 0;
+}
+.side-nav .login-left i {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.banner-area .container-fluid {
+    padding-left: 0;
+    padding-right: 50px;
+}
+.banner-img img:nth-child(1) {
+    right: unset;
+    left: 0;
+    border-radius: 0 50px 50px 0;
+}
+.banner-img img:nth-child(2) {
+    right: unset;
+    left: 245px;
+}
+.banner-img img:nth-child(3) {
+    right: unset;
+    left: 175px;
+}
+.banner-img img:nth-child(4) {
+    right: unset;
+    left: 305px;
+}
+.banner-img img:nth-child(5) {
+    right: unset;
+    left: 390px;
+}
+.banner-img img:nth-child(6) {
+    right: unset;
+    left: 515px;
+}
+.banner-img img:nth-child(7) {
+    right: unset;
+    left: 0;
+}
+.banner-img img:nth-child(8) {
+    right: unset;
+    left: 115px;
+}
+.banner-img img:nth-child(9) {
+    right: unset;
+    left: 195px;
+}
+.banner-img img:nth-child(10) {
+    right: unset;
+    left: 10px;
+}
+.banner-img img:nth-child(11) {
+    right: unset;
+    left: 0;
+}
+.banner-img img:nth-child(12) {
+    right: unset;
+    left: 85px;
+}
+.banner-img img:nth-child(13) {
+    right: unset;
+    left: 272px;
+}
+.banner-img .inner {
+    right: unset;
+    left: 380px;
+}
+.banner-img .inner p {
+    left: unset;
+    right: -410px;
+}
+.banner-img .inner p:before {
+    right: unset;
+    left: 0;
+    border-left: 0;
+    border-right: 25px solid transparent;
+}
+.banner-area:before {
+    right: unset;
+    left: 0;
+}
+.banner-content .banner-form-area {
+    padding-right: 10px;
+    padding-left: 205px;
+}
+.banner-content .banner-form-area .btn {
+    right: unset;
+    left: 15px;
+}
+.banner-content .banner-form-area .form-group .form-control {
+    padding-left: 10px;
+    padding-right: 30px;
+    border-right: 0;
+    border-left: 1px solid #5f5656;
+}
+.banner-content .banner-form-area .form-group label {
+    left: unset;
+    right: 0;
+}
+.banner-content .banner-form-area .form-group .nice-select {
+    border-right: 0;
+    border-left: 1px solid #5f5656;
+}
+.banner-content .banner-form-area .form-group.two .form-control {
+    border-left: 0;
+}
+span.current {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.banner-content .banner-form-area .form-group .nice-select:after {
+    right: unset;
+    left: 35px;
+}
+.nice-select .list {
+    text-align: right;
+}
+.nice-select .option {
+    text-align: right;
+    padding-right: 15px;
+}
+.banner-content .banner-key ul li span {
+    margin-right: 0;
+    margin-left: 18px;
+}
+.banner-content .banner-key ul li a {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.banner-content .banner-key ul li:last-child a {
+    margin-left: 0;
+}
+.work-item i {
+    right: unset;
+    left: 30px;
+}
+.section-title .sub-title:before {
+    left: unset;
+    right: 0;
+}
+.section-title .sub-title {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.sorting-menu ul li {
+    margin-right: 0;
+    margin-left: 30px;
+}
+.sorting-menu ul li:last-child {
+    margin-left: 0;
+}
+.sorting-menu {
+    text-align: left;
+}
+.job-item .job-left {
+    padding-left: 0;
+    padding-right: 100px;
+}
+.job-item .job-left img {
+    left: unset;
+    right: 0;
+}
+.feature-top-right {
+    right: unset;
+    left: -1px;
+}
+.explore-area .explore-item {
+    margin-left: 0;
+    margin-right: auto;
+}
+.explore-area .explore-item ul li .left-btn {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.explore-area .explore-item ul li span {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.counter-item i {
+    left: unset;
+    right: 0;
+}
+.counter-item {
+    padding-left: 0;
+    padding-right: 95px;
+}
+.cmn-link {
+    text-align: left;
+}
+.cmn-link a:hover {
+    padding-right: 0;
+    padding-left: 42px;
+}
+.cmn-link a:hover .two {
+    right: unset;
+    left: 0;
+}
+.cmn-link a .one {
+    left: unset;
+    right: -42px;
+}
+.company-item .bottom a {
+    right: unset;
+    left: 0;
+}
+.company-item .top span {
+    margin-left: 0;
+    margin-right: 3px;
+}
+.company-item .bottom ul li {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.company-item:hover .bottom a {
+    right: unset;
+    left: 10px;
+}
+.feedback-area .feedback-item {
+    padding: 40px 30px 40px 65px;
+}
+.feedback-area .feedback-item img {
+    right: unset;
+    left: -15px;
+}
+.feedback-area .feedback-item:hover img {
+    right: unset;
+    left: 5px;
+}
+.blog-item span {
+    padding-left: 0;
+    padding-right: 40px;
+}
+.blog-item span:before {
+    left: unset;
+    right: 0;
+}
+/* .blog-item .cmn-link {
+    text-align: right;
+    margin-left: 0;
+    margin-right: 45px;
+}
+.blog-item .cmn-link a:hover .one {
+    left: unset;
+    right: -60px;
+} */
+
+.blog-item .cmn-link {
+    text-align: right;
+    margin-left: unset;
+    margin-right: 45px;
+}
+.blog-item .cmn-link a:hover .one {
+    left: unset;
+    right: -60px;
+}
+.blog-item .cmn-link a:hover {
+    margin-left: unset;
+    margin-right: -45px;
+}
+.app-area .app-content ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.app-area .app-content ul li:last-child {
+    margin-left: 0;
+}
+.footer-item .footer-logo ul li span {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.footer-item .footer-newsletter form .form-control {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.footer-item .footer-newsletter form .btn {
+    border-radius: 5px 0 0 5px;
+    right: unset;
+    left: 5px;
+}
+.copyright-area .copyright-item ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.copyright-area .copyright-item p {
+    text-align: left;
+}
+.footer-item .footer-service ul li a:hover {
+    padding-left: 0;
+    padding-right: 5px;
+}
+.banner-area.two .container-fluid {
+    padding-left: 50px;
+}
+.categories-area .nav-pills a .two {
+    right: unset;
+    left: 0;
+}
+.categories-area .cat-item {
+    padding: 20px 60px 20px 10px;
+}
+.categories-area .cat-item img {
+    left: unset;
+    right: 15px;
+}
+.categories-area .cat-item .link {
+    right: unset;
+    left: 15px;
+}
+.categories-area .cat-item:before {
+    right: unset;
+    left: 0;
+    border-radius: 50% 50% 50% 0;
+}
+.categories-area .cat-item:hover .link {
+    right: unset;
+    left: 20px;
+}
+.categories-area .nav-pills a i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.work-item.two {
+    border-right: 0;
+    border-left: 1px dashed #d5d5d5;
+}
+.work-item.two:after {
+    right: unset;
+    left: -16px;
+    transform: rotate(-90deg);
+}
+.work-item.two.work-border {
+    border-left: 0;
+}
+.candidate-item img {
+    right: unset;
+    left: 0;
+}
+.candidate-item .left ul li {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.candidate-item .left .cmn-link {
+    text-align: right;
+    margin-left: 0;
+    margin-right: 45px;
+}
+.candidate-item .left .cmn-link a:hover {
+    margin-left: unset;
+    margin-right: -45px;
+}
+.testimonial-area .testimonial-item {
+    padding-left: 0;
+    padding-right: 280px;
+}
+.testimonial-area .testimonial-item img {
+    left: unset;
+    right: 10px;
+}
+.testimonial-area .section-title {
+    margin-left: 0;
+    margin-right: auto;
+}
+.register-area .container .row {
+    padding-right: 0;
+    padding-left: 390px;
+}
+.register-area ul {
+    right: unset;
+    left: 0;
+}
+.register-area ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.register-area ul li:last-child {
+    margin-left: 0;
+}
+.register-area .register-item {
+    padding-left: 0;
+    padding-right: 30px;
+    border-left: 0;
+    border-right: 1px dashed #7068a3;
+}
+.register-area .register-item:before {
+    left: unset;
+    right: -4px;
+    transform: rotate(-90deg);
+}
+.banner-area.three .banner-shape-three img {
+    right: unset;
+    left: 40px;
+}
+.banner-content.three .register-area .container .row {
+    padding-left: 0;
+}
+.banner-area.three .banner-bottom-btn:before {
+    right: -20px;
+    left: 0;
+}
+.employer-item {
+    padding: 25px 105px 25px 35px;
+}
+.employer-item img {
+    left: unset;
+    right: 25px;
+}
+.employer-item .span-two {
+    right: unset;
+    left: 10px;
+}
+.employer-item ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.system-area .system-item .system-list li span {
+    margin-right: unset;
+    margin-left: 15px;
+}
+.system-area .system-item .system-list li span:before {
+    right: unset;
+    left: -10px;
+    transform: rotate(-90deg);
+}
+.system-area .system-item .system-video li .left-btn {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.system-area .system-item .system-video li span {
+    margin-right: unset;
+    margin-left: 20px;
+}
+.new-area .new-img img:nth-child(2) {
+    left: unset;
+    right: -20px;
+}
+.blog-details-area .details-item .details-img ul li {
+    margin-right: 0;
+    margin-left: 12px;
+}
+.blog-details-area .details-item .details-img ul li i {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.blog-details-area .details-item .details-img ul li:last-child {
+    margin-left: 0;
+}
+.blog-details-area .details-item .details-img .d-content p {
+    padding-left: 0;
+    padding-right: 80px;
+}
+.blog-details-area .details-item .details-img .d-content span {
+    left: unset;
+    right: 0;
+}
+.blog-details-area .details-item .details-tag .left ul li span {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.blog-details-area .details-item .details-tag .left ul li a {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.blog-details-area .details-item .details-tag .right ul li {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.blog-details-area .details-item .details-tag .right ul li:last-child {
+    margin-left: 0;
+}
+.blog-details-area .details-item .details-tag .right {
+    text-align: left;
+}
+.blog-details-area .details-item .details-date .date-inner span:before {
+    left: unset;
+    right: 0;
+}
+.blog-details-area .details-item .details-date .date-inner span {
+    padding-left: 0;
+    padding-right: 50px;
+}
+.blog-details-area .details-item .details-date .date-inner a {
+    right: unset;
+    left: 0;
+}
+.blog-details-area .details-item .details-comment h3:before {
+    left: unset;
+    right: 0;
+}
+.blog-details-area .details-item .details-comment ul li img {
+    left: unset;
+    right: 0;
+}
+.blog-details-area .details-item .details-comment ul li {
+    padding-left: 0;
+    padding-right: 130px;
+}
+.blog-details-area .details-item .details-comment ul li a {
+    right: unset;
+    left: 0;
+}
+.blog-details-area .details-item .details-comment ul li:last-child {
+    margin-left: 0;
+    margin-right: 40px;
+}
+.form-check-label {
+    margin-right: 18px;
+}
+.blog-details-area .details-item .details-form .form-group i {
+    left: unset;
+    right: 15px;
+}
+.blog-details-area .details-item .details-form .form-group .form-control {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.page-title-area.two .left.two img {
+    left: unset;
+    right: 0;
+}
+.page-title-area.two .left.two {
+    padding-left: 0;
+    padding-right: 225px;
+}
+.page-title-area.two .left ul li {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.page-title-area.two .left ul li:last-child {
+    margin-left: 0;
+    color: #00d2ff;
+}
+.page-title-area.two .left ul li i {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.page-title-area.two .right ul li {
+    padding-right: 0;
+    padding-left: 10px;
+    border-right: 0;
+    border-left: 1px solid #fff;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.page-title-area.two .right ul li:last-child {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+.page-title-area.two .right ul li a i {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.widget-area .widget-item h3:before {
+    left: unset;
+    right: 0;
+    border-radius: 50% 0% 0% 50%;
+}
+.widget-area .job form label {
+    left: unset;
+    right: 15px;
+}
+.widget-area .job form .form-control {
+    padding-left: 10px;
+    padding-right: 38px;
+}
+.widget-area .cat ul li span {
+    right: unset;
+    left: 0;
+}
+.widget-area .cat ul li:before {
+    right: unset;
+    left: 35px;
+}
+.widget-area .recent .recent-inner ul li:last-child {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.widget-area .tags ul li {
+    margin-right: 0;
+    margin-left: 7px;
+}
+.widget-area .information ul li {
+    padding-left: 0;
+    padding-right: 50px;
+}
+.widget-area .information ul li img {
+    left: unset;
+    right: 0;
+}
+.widget-area .owner .top {
+    padding-left: 0;
+    padding-right: 105px;
+}
+.widget-area .owner .top img {
+    left: unset;
+    right: 30px;
+}
+.person-details-area .details-item .work ul li span {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.person-details-area .details-item .work ul li img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.person-details-area .details-item .skill-bar:before {
+    right: unset;
+    left: -2px;
+}
+.animate__slideInLeft {
+    animation-name: slideInRight;
+}
+.person-details-area .details-item .skill1 .skill-count1 {
+    right: unset;
+    left: 7px;
+}
+.person-details-area .details-item .skill2 .skill-count2 {
+    right: unset;
+    left: 7px;
+}
+.person-details-area .details-item .skill3 .skill-count3 {
+    right: unset;
+    left: 7px;
+}
+.person-details-area .details-item .skill4 .skill-count4 {
+    right: unset;
+    left: 7px;
+}
+.person-details-area .details-item .skill5 .skill-count5 {
+    right: unset;
+    left: 7px;
+}
+.person-details-area .details-item .skill6 .skill-count6 {
+    right: unset;
+    left: 7px;
+}
+.person-details-area .details-item .skill7 .skill-count7 {
+    right: unset;
+    left: 7px;
+}
+.person-details-area .details-item .client {
+    padding: 20px 155px 20px 20px;
+}
+.person-details-area .details-item .client img {
+    left: unset;
+    right: 20px;
+}
+.person-details-area .details-item .client ul {
+    right: unset;
+    left: 20px;
+}
+.person-details-area .details-item .client ul li span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.job-filter-area span.current {
+    right: 10px;
+}
+.job-filter-area .nice-select:after {
+    right: unset;
+    left: 12px;
+}
+.job-showing-area .showing .right ul {
+    text-align: left;
+}
+.job-showing-area .showing .left .form-group {
+    position: absolute;
+    right: 25px;
+}
+.job-showing-area span.current {
+    right: 10px;
+}
+.job-showing-area .nice-select:after {
+    right: unset;
+    left: 12px;
+}
+.contact-form-area .form-item .form-group {
+    text-align: right;
+}
+.list-unstyled {
+    padding-right: 0;
+}
+.contact-form-area .form-item .form-group .form-control {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.page-title-area .title-item ul li img {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.dashboard-area .nav-pills a i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.dashboard-area .profile-content .form-group {
+    text-align: right;
+}
+.dashboard-area .profile-content .form-group .form-control {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.job-details-area .details-item .details-inner ul li i {
+    margin-right: 0;
+    margin-left: 3px;
+}
+.employer-details-area .client {
+    padding: 20px 155px 20px 20px;
+}
+.employer-details-area .client ul {
+    right: unset;
+    left: 20px;
+}
+.employer-details-area .client img {
+    left: unset;
+    right: 20px;
+}
+.person-details-area .details-item .review .form-group .form-control {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.person-details-area .details-item .review .form-group i {
+    left: unset;
+    right: 15px;
+}
+.employer-details-area .review .form-group .form-control {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.employer-details-area .review .form-group i {
+    left: unset;
+    right: 15px;
+}
+.employer-area.two .employer-item {
+    padding: 25px 95px 25px 30px;
+}
+.employer-item ul li i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.faq-area .faq-content .accordion a:after {
+    right: unset;
+    left: 20px;
+}
+.job-area-list .job-list-right .job form label {
+    left: unset;
+    right: 15px;
+}
+.job-area-list .job-list-right .job form .form-control {
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.job-area-list .job-list-right .job-list-all .search form .form-control {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.job-area-list .job-list-right .job-list-all .search form .btn {
+    right: unset;
+    left: 0;
+}
+.form-check-label {
+    margin-right: 24px;
+}
+.job-area-list .job-list-item li:last-child .sort {
+    margin-right: 0;
+    margin-left: 8px;
+}
+.job-area-list .job-list-item li:last-child {
+    text-align: left;
+}
+.job-area-list .job-list-item li:last-child .form-group .nice-select {
+    width: 160px;
+}
+.job-area-list span.current {
+
+    right: 15px;
+}
+.job-area-list .nice-select:after {
+    right: unset;
+    left: 12px;
+}
+.job-area-list .job-list-item li a {
+    margin-right: 0;
+    margin-left: 25px;
+}
+.user-form-area .user-content {
+    padding-left: 0;
+    padding-right: 30px;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 30px;
+}
+.post-job-area .post-item .form-group {
+    text-align: right;
+}
+.post-job-area span.current {
+    right: 15px;
+}
+.post-job-area .nice-select:after {
+    right: unset;
+    left: 12px;
+}
+.form-control {
+    text-align: right !important;
+}
+.counter-area:before {
+    right: unset;
+    left: 0;
+}
+#toTop {
+    right: unset;
+    left: 30px;
+}
+
+.buy-now-btn {
+    left: 20px;
+    right: auto;
+}
+.switch-box {
+    left: 120px;
+    right: auto;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .banner-content .banner-form-area {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .banner-content .banner-form-area .form-group .form-control {
+        border-left: 0;
+    }
+    .banner-content .banner-form-area .form-group .nice-select {
+        border-left: 0;
+    }
+    .job-item .job-left {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cmn-link {
+        text-align: center;
+    }
+    .feedback-area .feedback-item {
+        padding: 40px 15px 40px 15px;
+    }
+    .testimonial-area .testimonial-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .register-area .container .row {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .copyright-area .copyright-item p {
+        text-align: center;
+    }
+    .register-area .register-item {
+        padding-right: 10px;
+    }
+    .banner-area.three .banner-shape-three img {
+        right: 0;
+        left: 0;
+    }
+    .employer-item {
+        padding: 25px 80px 25px 25px;
+    }
+    .job-area-list .job-list-item li a {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+    .job-area-list .job-list-item li:last-child {
+        text-align: right;
+    }
+    .page-title-area.two .left.two {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .person-details-area .details-item .client {
+        padding: 20px 25px 20px 20px;
+    }
+    .person-details-area .details-item .client img {
+        left: 0;
+        right: 0;
+    }
+    .person-details-area .details-item .review {
+        padding: 28px 15px 35px;
+        text-align: right;
+        margin-bottom: 30px;
+    }
+    .blog-details-area .details-item .details-comment ul li {
+        padding-left: 0;
+        padding-right: 108px;
+    }
+    .blog-details-area .details-item .details-comment ul li:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .user-form-area .user-content {
+        padding-left: 0;
+    }
+    .employer-details-area .client {
+        padding: 20px 20px 20px
+    }
+    .employer-details-area .client img {
+        left: 0;
+        right: 0;
+    }
+    .person-details-area .details-item .skills {
+        text-align: right;
+    }
+    .banner-content .banner-form-area .form-group .nice-select:after {
+        left: 0;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-content .banner-form-area .form-group .form-control {
+        border-left: 0;
+    }
+    .banner-content .banner-form-area .form-group .nice-select {
+        border-left: 0;
+    }
+    .banner-content .banner-form-area {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .offset-sm-3 {
+        margin-left: unset;
+        margin-right: 25%;
+    }
+    .job-item .job-left {
+        padding-right: 0;
+    }
+    .explore-area .explore-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .work-item.two {
+        border-left: 0;
+    }
+    .testimonial-area .testimonial-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .register-area .container .row {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .page-title-area.two .left.two {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .employer-details-area .client {
+        text-align: right;
+    }
+    .banner-content .banner-form-area .form-group .nice-select:after {
+        left: 0;
+    }
+
+}
+@media only screen and (min-width: 992px)  and (max-width: 1199px) {
+    .side-nav .login-left {
+        margin-right: 0;
+        margin-left: 5px;
+    }
+    .banner-content .banner-key ul li span {
+        margin-right: 0;
+        margin-left: 0px;
+    }
+    .employer-item {
+        padding: 25px 80px 25px 15px;
+    }
+    .banner-area.three .banner-shape-three img {
+        max-width: 330px;
+    }
+    .banner-content.three .register-area .register-item {
+        border-left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .mobile-nav .logo {
+        left: auto !important;
+        right: 15px !important;
+    }
+    .mean-container a.meanmenu-reveal {
+        padding: 15px 0 0 15px;
+        right: auto !important;
+        left: 0 !important;
+    }
+    .side-nav {
+        right: unset;
+        left: 75px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        text-align: left !important;
+        left: 0;
+        right: auto;
+    }
+    .mean-container .mean-nav ul li a {
+        float: right !important;
+        text-align: right !important;
+    }
+
+}
+
+@media only screen and (max-width: 1350px) and (min-width: 1300px) {
+    .banner-img img:nth-child(6) {
+        right: unset;
+        left: 495px;
+    }
+
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1300px) {
+
+    .testimonial-area .owl-prev {
+        left: 0;
+    }
+    .testimonial-area .owl-next {
+        right: 0;
+    }
+    .testimonial-area .testimonial-slider:hover .owl-prev {
+        left: 0;
+    }
+    .testimonial-area .testimonial-slider:hover .owl-next {
+        right: 0;
+    }
+    .candidate-area .owl-prev {
+        left: 0;
+    }
+    .candidate-area .owl-next {
+        right: 0;
+    }
+    .candidate-area .candidate-slider:hover .owl-prev {
+        left: 0;
+    }
+    .candidate-area .candidate-slider:hover .owl-next {
+        right: 0;
+    }
+    .feedback-area .owl-prev {
+        left: 0;
+    }
+    .feedback-area .owl-next {
+        right: 0;
+    }
+    .feedback-area .feedback-slider:hover .owl-prev {
+        left: 0;
+    }
+    .feedback-area .feedback-slider:hover .owl-next {
+        right: 0;
+    }
+    .client-area .owl-prev {
+        left: 0;
+    }
+    .client-area .owl-next {
+        right: 0;
+    }
+    .client-area .client-slider:hover .owl-prev {
+        left: 0;
+    }
+    .client-area .client-slider:hover .owl-next {
+        right: 0;
+    }
+}

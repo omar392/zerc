@@ -1,0 +1,917 @@
+$pink-color: #fe4a55;
+$green-color: #21a212;
+$white-color: #ffffff;
+$dark-color: #1d1d1d;
+$bg-color: #252525;
+$card-bg: #0e0e0e;
+.switch-box {
+    position: fixed;
+    bottom: 15px;
+    right: 120px;
+    z-index: 9999;
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: transparent;
+        border: 1.5px solid $pink-color;
+        transition: 0.4s;
+        &::before {
+            position: absolute;
+            content: "";
+            height: 25px;
+            width: 25px;
+            left: 0px;
+            bottom: 4px;
+            top: 0;
+            bottom: 0;
+            margin: auto 0;
+            transition: 0.4s;
+            box-shadow: 0 0px 15px #2020203d;
+            background: white url('../img/night.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        &.round {
+            border-radius: 34px;
+            &::before {
+                border-radius: 50%;
+            }
+        }
+    }
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+    input:checked + .slider {
+        background-color: transparent;
+        border: 1.5px solid $green-color;
+    }
+      
+    input:focus + .slider {
+        box-shadow: 0 0 1px $green-color;
+    }
+      
+    input:checked + .slider:before {
+        transform: translateX(24px);
+        background: white url('../img/sunny.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.theme-dark {
+    $grey-color: #ffffff;
+    $blue-color: #ffffff;
+    h1, h2, h3, h4, h5, h6 {
+        color: $white-color; 
+    }
+    h3 {
+        color: $white-color !important; 
+        a {
+            color: $white-color !important;
+            transition: 0.7s;
+            &:hover {
+                color: $pink-color !important;
+            }
+        }
+    }
+    p {
+        color: $white-color !important; 
+    }
+    .content {
+        h3 {
+            color: $white-color;
+            a {
+                color: $white-color;
+            }
+        }
+        span {
+           color: $white-color;
+        }
+        .read-btn {
+            color: $white-color;
+        }
+    }
+    body {
+        background: $dark-color;
+        color: $white-color; 
+    }
+    .section-title {
+        .sub-title {
+            color: $white-color;
+        }
+        h2 {
+            color: $white-color !important;
+        }
+    }
+    .navbar-light {
+        .navbar-brand {
+            .logo-one {
+                display: none;
+            }
+            .logo-two {
+                display: inline-block;
+            }
+        }
+    }
+    .main-nav {
+        nav {
+            .navbar-nav  {
+                .nav-item {
+                    a {
+                        color: $white-color;
+                        i {
+                            color: $white-color;
+                        }
+                        &:hover {
+                            color: $pink-color !important;
+                        }
+                        &.active {
+                            color: $pink-color !important;
+                        }
+                    }
+                    .dropdown-menu {
+                        background-color: $bg-color !important;
+                        li {
+                            a {
+                                color: $white-color !important;
+                                &.active {
+                                    color: $pink-color !important;
+                                }
+                                &:hover {
+                                    color: $pink-color !important;
+                                }
+                            }
+                        }
+                    }
+                }   
+            }
+        }
+    }
+    .main-nav {
+        &.menu-shrink {
+            background-color: $bg-color;
+        }
+    }
+    .side-nav {
+        .login-left {
+            color: $white-color;
+            i {
+                color: $white-color;
+            }
+        }
+    }
+    .banner-area {
+        background-color: $card-bg;
+        &::before {
+            background-color: $dark-color;
+        }
+        .banner-shape {
+            width: 100%;
+            height: 100px;
+            background-color: $dark-color;
+            border-top-left-radius: 50%;
+            img {
+                display: none;
+            }
+        }
+        &.two {
+            .banner-shape-two {
+                img {
+                    &:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .banner-content {
+        .banner-form-area {
+            background-color: $bg-color;
+            .form-group {
+                .form-control, .nice-select {
+                    background-color: $bg-color;
+                    color: $white-color;
+                }
+                .list {
+                    background-color: $bg-color;
+                   
+                    .option {
+                        color: $white-color !important;
+                    }
+                }
+                .option {
+                    &.selected {
+                        color: $white-color;
+                        background-color: $pink-color;
+                    }
+                    &:hover {
+                        color: $white-color;
+                        background-color: $pink-color;
+                    }
+                    &.focus {
+                        color: $white-color;
+                        background-color: $pink-color;
+                    }
+                    &.selected {
+                        &.focus {
+                            color: $white-color;
+                            background-color: $pink-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .banner-content .banner-form-area .form-group .form-control::-webkit-input-placeholder {
+        color: $white-color;
+    }
+    .banner-content .banner-form-area .form-group .form-control:-ms-input-placeholder {
+        color: $white-color;
+    }
+    .banner-content .banner-form-area .form-group .form-control::-ms-input-placeholder {
+        color: $white-color;
+    }
+    .banner-content .banner-form-area .form-group .form-control::placeholder {
+        color: $white-color;
+    }
+    .support-area { 
+        .support-item {
+            .support-item-logo1 {
+                display: none !important;
+            }
+            .support-item-logo2 {
+                display: inline-block !important;
+            }
+        }
+    }
+    .work-item {
+        background-color: $card-bg;
+        &.two {
+            background-color: transparent;
+        }
+    }
+    .job-item {
+        background-color: $bg-color;
+    }
+    .job-area {
+        &.two {
+            &::before {
+                background-color: $card-bg;
+            }
+            .job-item {
+                &:hover {
+                    .job-left {
+                        h3 {
+                            color: $pink-color !important;
+                        }
+                        P {
+                            color: $dark-color !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .job-filter-area {
+        .form-group {
+            .form-control {
+                background-color: $dark-color;
+                color: $white-color;
+            }
+            .nice-select {
+                background-color: $dark-color;
+                color: $white-color;
+            }
+            .list {
+                background-color: $bg-color;
+               
+                .option {
+                    color: $white-color !important;
+                }
+            }
+            .option {
+                &.selected {
+                    color: $white-color;
+                    background-color: $pink-color;
+                }
+                &:hover {
+                    color: $white-color;
+                    background-color: $pink-color;
+                }
+                &.focus {
+                    color: $white-color;
+                    background-color: $pink-color;
+                }
+                &.selected {
+                    &.focus {
+                        color: $white-color;
+                        background-color: $pink-color;
+                    }
+                }
+            }
+        }
+    }
+    .job-showing-area {
+        .showing {
+            background-color: $bg-color;
+            .left {
+                .form-group {
+                    .nice-select {
+                        background-color: $dark-color;
+                        color: $white-color;
+                    }
+                    .list {
+                        background-color: $bg-color;
+                       
+                        .option {
+                            color: $white-color !important;
+                        }
+                    }
+                    .option {
+                        &.selected {
+                            color: $white-color;
+                            background-color: $pink-color;
+                        }
+                        &:hover {
+                            color: $white-color;
+                            background-color: $pink-color;
+                        }
+                        &.focus {
+                            color: $white-color;
+                            background-color: $pink-color;
+                        }
+                        &.selected {
+                            &.focus {
+                                color: $white-color;
+                                background-color: $pink-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .job-area-list {
+        .job-list-item {
+            li {
+                a {
+                    color: $white-color;
+                }
+                &:last-child {
+                    .form-group {
+                        .nice-select {
+                            background-color: $dark-color;
+                            color: $white-color;
+                        }
+                        .list {
+                            background-color: $bg-color;
+                           
+                            .option {
+                                color: $white-color !important;
+                            }
+                        }
+                        .option {
+                            &.selected {
+                                color: $white-color;
+                                background-color: $pink-color;
+                            }
+                            &:hover {
+                                color: $white-color;
+                                background-color: $pink-color;
+                            }
+                            &.focus {
+                                color: $white-color;
+                                background-color: $pink-color;
+                            }
+                            &.selected {
+                                &.focus {
+                                    color: $white-color;
+                                    background-color: $pink-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .job-list-right {
+            .job form {
+                .form-control {
+                    background-color: $dark-color;
+                    color: $white-color;
+                }
+            }
+            .job-list-all {
+                .search form {
+                    .form-control {
+                        background-color: $dark-color;
+                        color: $white-color;
+                    }
+                }
+            }
+            .jecto-contact {
+                .bottom {
+                    h3 {
+                        a {
+                            &:hover {
+                                color: $dark-color !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .post-job-area {
+        .post-item {
+            background-color: $bg-color;
+            .form-group {
+                .form-control {
+                    background-color: $dark-color;
+                    color: $white-color;
+
+                }
+                .nice-select {
+                    background-color: $dark-color;
+                    color: $white-color;
+                }
+                .list {
+                    background-color: $bg-color;
+                   
+                    .option {
+                        color: $white-color !important;
+                    }
+                }
+                .option {
+                    &.selected {
+                        color: $white-color;
+                        background-color: $pink-color;
+                    }
+                    &:hover {
+                        color: $white-color;
+                        background-color: $pink-color;
+                    }
+                    &.focus {
+                        color: $white-color;
+                        background-color: $pink-color;
+                    }
+                    &.selected {
+                        &.focus {
+                            color: $white-color;
+                            background-color: $pink-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .person-details-area {
+        .details-item {
+            .work {
+                ul {
+                    li {
+                        span {
+                            color: $white-color;
+                        }
+                    }
+                }
+                h4 {
+                    color: $white-color;
+                }
+            }
+            .client {
+                background-color: $bg-color;
+            }
+            .review {
+                background-color: $bg-color;
+                .form-group {
+                    .form-control {
+                        background-color: $dark-color;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+        .similar-candidates {
+            h4 {
+                color: $white-color;
+            }
+        }
+    }
+    .explore-area {
+        &::before {
+            opacity: 0.7;
+        }
+        &.two {
+            background-color: $card-bg;
+            .explore-item {
+                ul {
+                    li {
+                        span {
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .categories-area {
+        .nav-pills {
+            a {
+                color: $white-color;
+                &.active {
+                    color: $green-color;
+                    background-color: transparent;
+                }
+            }
+        }
+        .cat-item {
+            &:hover {
+                h3 {
+                    a {
+                        color: $dark-color !important;
+                    }
+                }
+                span {
+                    color: $dark-color !important;
+                }
+            }
+        }
+    }
+
+    .employer-details-area {
+        .client-wrap {
+            h2 {
+                color: $white-color;
+            }
+        }
+        .client {
+            background-color: $bg-color;
+        }
+        .review {
+            background-color: $bg-color;
+            .form-group {
+                .form-control {
+                    background-color: $dark-color;
+                    color: $white-color;
+
+                }
+            }
+        }
+    }
+    .dashboard-area {
+        .profile-item {
+            h2 {
+                color: $white-color;
+            }
+        }
+        .nav-pills {
+            a {
+               color: $white-color;
+            }
+        }
+        .profile-content {
+            .profile-content-inner {
+                background-color: $bg-color;
+                h2 {
+                    color: $white-color;
+                }
+                .form-group {
+                    label {
+                        color: $white-color;
+                    }
+                    .form-control {
+                        background-color: $dark-color;
+                        color: $white-color;
+                    }
+                    button, input, optgroup, select, textarea {
+                        background-color: $dark-color;
+                    }
+                }
+            }
+        }
+    }
+    .counter-area {
+        background-color: $bg-color;
+        &::before {
+            background-color: $dark-color;
+        }
+        .counter-shape {
+            width: 100%;
+            height: 100px;
+            background-color: $dark-color;
+            border-top-left-radius: 50%;
+            img {
+               display: none;
+            }
+        }
+    }
+    .faq-area {
+        .faq-content {
+            .accordion {
+                a {
+                    color: $white-color;
+                    border-color: $white-color;
+                    &::after {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .feedback-area {
+        background-color: $bg-color;
+        &::before {
+            background-color: $dark-color;
+        }
+        .feedback-item {
+            background-color: $card-bg;
+            h4 {
+                color: $white-color;
+            }
+        }
+        .feedback-shape {
+            width: 100%;
+            height: 100px;
+            background-color: $dark-color;
+            border-top-left-radius: 50%;
+            img {
+                display: none;
+            }
+        }
+    }
+    .partner-area {
+        background-color: $card-bg;
+    }
+    .register-area {
+        background-color: $bg-color;
+    }
+    .pricing-area {
+        background-color: $card-bg;
+    }
+    .pricing-item {
+        background-color: $bg-color;
+    }
+    .blog-area {
+        &.three {
+            background-color: $bg-color;
+        }
+    }
+    .blog-details-area {
+        .details-item {
+            .details-img {
+                h2 {
+                    color: $white-color;
+                }
+                blockquote {
+                    background-color: $bg-color;
+                }
+                ul {
+                    li {
+                        a {
+                            color: $white-color;
+                            transition: 0.7s;
+                            &:hover {
+                                color: $pink-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .d-content {
+                span {
+                    color: $white-color;
+                }
+            }
+            .details-tag {
+                background-color: $bg-color;
+                .left {
+                    ul {
+                        li {
+                            span {
+                                color: $white-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .details-date {
+                .date-inner {
+                    background-color: $bg-color;
+                    h4 {
+                        color: $white-color;
+                    }
+                }
+            }
+            .details-comment {
+                ul {
+                    li {
+                        h4 {
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+            .details-form {
+                background-color: $bg-color;
+                .form-group {
+                    label {
+                        color: $white-color;
+                    }
+                    .form-control {
+                        background-color: $dark-color;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .widget-area {
+        .job form {
+            .form-control {
+                background-color: $dark-color;
+                color: $white-color;
+            }
+        }
+        .cat {
+            ul {
+                li {
+                    a {
+                        color: $white-color;
+                        transition: 0.7s;
+                        &:hover {
+                            color: $pink-color;
+                        }
+                    }
+                }
+            }
+        }
+        .recent {
+            .recent-inner {
+                ul {
+                    li {
+                        a {
+                            color: $white-color;
+                            transition: 0.7s;
+                            &:hover {
+                                color: $pink-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .tags {
+            ul {
+                li {
+                    a {
+                        color: $white-color;
+                        transition: 0.7s;
+                        &:hover {
+                            color: $pink-color;
+                        }
+                    }
+                }
+            }
+        }
+        .information {
+            ul {
+                li {
+                    h4 {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+        .owner {
+            .top  {
+                background-color: $bg-color;
+                i {
+                    color: $white-color;
+                }
+            }
+            .widget-item {
+                a {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+    .footer-item {
+        .footer-logo {
+            .logo {
+                .logo-two {
+                    display: inline-block;
+                }
+                .logo-one {
+                    display: none;
+                }
+            }
+            ul {
+                li {
+                    color: $white-color;
+                    span {
+                        color: $pink-color;
+                    }
+                    a {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+        .footer-service {
+            ul {
+                li {
+                    color: $white-color;
+                    a {
+                        color: $white-color;
+                        transition: 0.7s;
+                        &:hover {
+                            color: $pink-color;
+                        }
+                    }
+                }
+            }
+        }
+        .footer-newsletter {
+            form {
+                .form-control {
+                    background-color: $bg-color;
+                    color: $white-color;
+                }
+            }
+        }
+    }
+    .copyright-area {
+        background-color: $card-bg;
+    }
+    .contact-info-area {
+        .info-item {
+            ul {
+                li {
+                    a {
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .contact-form-area {
+        .form-item {
+            background-color: $bg-color;
+            h2 {
+                color: $white-color;
+                &::before, &::after {
+                    background-color: $white-color;
+                }
+            }
+            .form-group {
+                label {
+                    color: $white-color;
+                }
+                .form-control {
+                    background-color: $dark-color;
+                    color: $white-color;
+                }
+            }
+        }
+    }
+    .user-form-area  {
+        .user-content {
+            .top {
+                .form-group {
+                    .form-control {
+                        background-color: $card-bg;
+                        color: $white-color;
+                    }
+                }
+            }
+        }
+    }
+    .coming-soon-area {
+        .soon-item {
+            span {
+                color: $white-color;
+            }
+        }
+    }
+    .error-area {
+        .error-content {
+            h2 {
+                color: $white-color;
+            }
+        }
+    }
+}
